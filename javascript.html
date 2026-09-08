@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    Nama: <i id="value_nama"></i>
+    <br>
+    Umur: <i id="value_umur"></i> 
+
+
+    <script>
+        // String Variable
+        var nama = "Timotius"
+
+        /* Number Variable */
+        let umur = 20;
+        
+        let tinggi = 170;
+
+        // Array
+        let film_favorit = ["Hayato", "Pochinok", "Clock Tower"];
+
+        // Menampilkan ke jendela console
+        console.log("Nama:" + nama);
+        console.log("Umur:"+ umur);
+        console.log("Tinggi:" + tinggi);
+        console.log("Film Favorit:" + film_favorit[0]);
+
+        // Arithmetic Operations
+        let a = 69;
+        let b = 69;
+
+        let jumlah = a + b;
+        console.log("Hasil penjumlahan a & b: " + jumlah);
+
+        let kurang = a - b;
+        console.log("Hasil pengurangan a & b: " + kurang);
+
+        let kali = a * b;
+        console.log("Hasil perkalian a & b: " + kali);
+
+        let bagi = a / b;
+        console.log("Hasil pembagian a & b: " + bagi);
+
+        let sisa = a % b;
+        console.log("Hasil sisa pembagian a & b: " + sisa)
+
+        let pangkat = a ** b;
+        console.log("Hasil pangkat a: " + pangkat)
+
+        // Condtional Statements
+        let nilai = 85;
+
+        if (nilai >= 90){
+            console.log("Nilai: A");
+         } else if (nilai >= 80) {
+            console.log("Nilai: B");
+         } else if (nilai >= 70) {
+            console.log("Nilai: C");
+         } else if (nilai >= 60) {
+            console.log("Nilai: D");
+         } else {
+            console.log("Nilai: E");
+         }
+
+         // Looping
+         for (let i = 1; i <= 99; i++){
+            console.log 
+         }
+    
+         function penjumlahan(a, b) {
+            return console.log("Hasil penjumlahan: " + (a + b));
+         }
+
+         penjumlahan(10,5);
+
+         // Menampilkan nama ke halaman web (DOM)
+         document.getElementById("value_nama").innerHTML = nama;
+         document.getElementById("value_umur").innerHTML = umur;
+
+    </script>
+
+</body>
+</html>
